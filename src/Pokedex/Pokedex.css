@@ -1,0 +1,35 @@
+.Pokedex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pokedex-title {
+    color: #a9a9a9;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.Pokedex-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.Pokedex-total {
+    margin: 2rem 0;
+}
+
+.Pokedex-win {
+    color: green;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.Pokedex-lose {
+    color: red;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
